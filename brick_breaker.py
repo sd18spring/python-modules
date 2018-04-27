@@ -17,10 +17,10 @@ import pygame
 from pygame.locals import *
 
 # 3) Local modules
-from simple_model import Model
-from pygame_window_view import View
-from controllers import KeyboardController as Controller
-#from controllers import MouseController as Controller
+from model.simple_model import Model
+from view.pygame_window_view import View
+from controller.keyboard_controller import Controller
+#from controller.mouse_controller import Controller
 
 
 if __name__ == '__main__':
